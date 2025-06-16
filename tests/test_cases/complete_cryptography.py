@@ -102,3 +102,9 @@ if typing.TYPE_CHECKING:
 
     import flake8_import_order
     from ..B import B
+
+if var:
+    import foo
+
+if True:
+    import bar
